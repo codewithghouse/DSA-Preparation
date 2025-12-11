@@ -7,9 +7,9 @@ public class subarray {
 public static void printsubarray(int numbers[]){
     //outer loop for current = starting index value
     for(int i=0;i<numbers.length;i++){
-        int start= i; //storing the index value
+        int start= i; //storing the index value === 0 ==2 
         for(int j=i;j<numbers.length;j++){
-            int end=j;
+            int end=j; // the value of j 
             //printing sub arrays
             for(int k=start;k<=end;k++){
                 System.out.print(+numbers[k]+" ");
