@@ -26,8 +26,7 @@ public class traprainwater {
         //fianllly trapwater == waterlevel -height[i] barki height se minus karre
         //har bar trap water plus karte jaare
         trapwater+=waterlevel-height[i];
-        }
-        return trapwater;
+        }        return trapwater;
     }
     public static void main(String[] args) {
         //this hieght array is given in the question
