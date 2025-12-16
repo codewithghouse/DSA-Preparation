@@ -12,7 +12,7 @@ public class buysellstock {
                 //here profit[i]==sellingprice
                 int profit=price[i]-buyprice;
                 maxprofit=Math.max(maxprofit, profit);
-                System.out.println(maxprofit);
+                System.out.println(profit);
             }else{
                 buyprice=price[i];
                 
